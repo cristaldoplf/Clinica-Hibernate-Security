@@ -26,7 +26,7 @@ public class Dentist {
 
     private String name;
     private String lastName;
-    private String licenseNumber;
+    private Integer licenseNumber;
 
     @OneToMany(mappedBy = "dentist")
     @JsonIgnore

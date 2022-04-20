@@ -18,7 +18,7 @@ class DentistServiceTest {
     public void createDentistTest() {
         DentistDTO dentist = new DentistDTO();
         dentist.setName("TestCrearDentista1");
-        dentist.setLicenseNumber("LicenceTestDentista1");
+        dentist.setLicenseNumber(100);
         dentist.setLastName("ApellidoDentistTest1");
 
         DentistDTO newDentist = dentistService.create(dentist);

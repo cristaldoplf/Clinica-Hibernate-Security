@@ -952,4 +952,61 @@
   2022-04-19 13:33:23 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   2022-04-19 13:33:23 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   2022-04-19 13:33:24 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 02:46:37 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 02:48:23 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:00:55 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:03:50 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:05:04 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:05:38 INFO  DentistController:39 - Dentist con el id 5 creado en la base de datos
+  2022-04-20 03:05:41 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:07:19 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:10:33 INFO  DentistController:39 - Dentist con el id 6 creado en la base de datos
+  2022-04-20 03:11:32 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:11:42 INFO  DentistController:39 - Dentist con el id 7 creado en la base de datos
+  2022-04-20 03:11:46 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:12:04 INFO  DentistController:39 - Dentist con el id 8 creado en la base de datos
+  2022-04-20 03:12:05 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:17:41 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:17:56 INFO  DentistController:39 - Dentist con el id 9 creado en la base de datos
+  2022-04-20 03:17:58 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:19:04 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:19:06 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:19:24 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:20:38 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:20:39 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list9"
+  2022-04-20 03:24:50 ERROR GlobalExceptionHandler:23 - JSON parse error: Cannot deserialize value of type `int` from String "ccc333": not a valid `int` value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "ccc333": not a valid `int` value
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 4, column: 22] (through reference chain: clinica.consultorio.dto.DentistDTO["licenseNumber"])
+  2022-04-20 03:25:01 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-20 03:25:10 INFO  DentistController:39 - Dentist con el id 2 creado en la base de datos
+  2022-04-20 03:25:21 INFO  DentistController:61 - Se intenta actualizar el Dentist con el id 1 en la base de datos
+  2022-04-20 03:25:29 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:25:33 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list2"
+  2022-04-20 03:26:32 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:26:33 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:26:35 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:26:39 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:26:45 INFO  DentistController:39 - Dentist con el id 3 creado en la base de datos
+  2022-04-20 03:26:46 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:26:51 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list3"
+  2022-04-20 03:28:05 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:28:57 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:29:00 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:29:07 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-20 03:29:08 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:29:09 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list1"
+  2022-04-20 03:31:35 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:31:37 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list1"
+  2022-04-20 03:38:27 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:38:28 ERROR GlobalExceptionHandler:23 - Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "list1"
+  2022-04-20 03:39:05 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 03:39:06 INFO  DentistController:31 - Dentist con el id 1 buscado en la base de datos
+  2022-04-20 03:39:26 INFO  DentistController:61 - Se intenta actualizar el Dentist con el id 1 en la base de datos
+  2022-04-20 03:43:48 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 05:01:49 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 05:01:56 INFO  DentistController:39 - Dentist con el id 2 creado en la base de datos
+  2022-04-20 05:02:00 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 05:02:02 INFO  DentistController:31 - Dentist con el id 1 buscado en la base de datos
+  2022-04-20 05:02:05 INFO  DentistController:61 - Se intenta actualizar el Dentist con el id 1 en la base de datos
+  2022-04-20 05:02:09 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-20 05:05:04 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   
