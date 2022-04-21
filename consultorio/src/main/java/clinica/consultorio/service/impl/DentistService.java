@@ -29,6 +29,12 @@ public class DentistService implements IDentistService {
     @Override
     public DentistDTO findById(@NotNull Integer id) {
         Dentist dentist = dentistRepository.getById(id);
+        System.out.println("##############################################################################");
+        System.out.println("ID");
+        System.out.println(dentist.getId());
+        System.out.println("NOMBRE");
+        System.out.println(dentist.getName());
+        System.out.println("##############################################################################");
         DentistDTO newDentistDTO = mapToDTO(dentist);
 
         return newDentistDTO;
@@ -86,6 +92,24 @@ public class DentistService implements IDentistService {
         Dentist dentist = dentistRepository.findDentistByName(name);
         return mapToDTO(dentist);
     }
+
+    @Override
+    public DentistDTO searchById(@NotNull Integer id) {
+        Dentist dentist = dentistRepository.searchById(id);
+        DentistDTO newDentistDTO = mapToDTO(dentist);
+
+        return newDentistDTO;
+    }
+
+
+    //    public void deleteByName(String name) {
+//        //1- buscar la entidad
+//        //2- verificar que se encontro
+//        //3- eliminarla
+//        dentistRepository.deleteByName(name);
+//    }
+
+
 
     //------ MAPPER -----
     private DentistDTO mapToDTO(Dentist dentist){

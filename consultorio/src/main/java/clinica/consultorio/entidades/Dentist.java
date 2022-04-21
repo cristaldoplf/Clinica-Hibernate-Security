@@ -14,12 +14,10 @@ import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
 @Entity
 @Table(name = "dentists")
 public class Dentist {
-
+    //eager fetch type aca y en turno
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
@@ -32,4 +30,39 @@ public class Dentist {
     @JsonIgnore
     private Set<Appointment> appointment_list;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public Integer getLicenseNumber() {
+        return licenseNumber;
+    }
+
+    public void setLicenseNumber(Integer licenseNumber) {
+        this.licenseNumber = licenseNumber;
+    }
+
+    public Set<Appointment> getAppointment_list() {
+        return appointment_list;
+    }
+
+    public void setAppointment_list(Set<Appointment> appointment_list) {
+        this.appointment_list = appointment_list;
+    }
 }

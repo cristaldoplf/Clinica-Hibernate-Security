@@ -8,8 +8,8 @@ import lombok.Setter;
 
 import java.util.Set;
 
-@Getter
-@Setter
+
+
 @AllArgsConstructor
 @NoArgsConstructor
 public class DentistDTO {
@@ -19,4 +19,31 @@ public class DentistDTO {
     private String lastName;
     private Integer licenseNumber;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public Integer getLicenseNumber() {
+        return licenseNumber;
+    }
+
+    public void setLicenseNumber(Integer licenseNumber) {
+        this.licenseNumber = licenseNumber;
+    }
 }

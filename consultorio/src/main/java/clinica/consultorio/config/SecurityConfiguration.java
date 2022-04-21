@@ -26,12 +26,28 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable()
                 .authorizeRequests()
-                .antMatchers("/user/**")
-                .permitAll()
+                .antMatchers("/api/adress/**", "/api/dentist/**", "/api/patient/**").hasAuthority("ADMIN")
+                .antMatchers("/alta-odontologos.html","/odontologos.html").hasAuthority("ADMIN")
+//                .permitAll()
                 .anyRequest()
                 .authenticated().and()
                 .formLogin();
     }
+
+//    @Override
+//    protected void configure(HttpSecurity http) throws Exception {
+//        http.csrf().disable()
+//                .authorizeRequests()
+//                .antMatchers("/dentists/*","/patients/*" ).hasAuthority("ADMIN")
+//                /.antMatchers("/appointments/").hasAuthority("USER")/
+//                .antMatchers("/dentistsList.html","/dentistNew.html","/patientsList.html","/patientNew.html")
+//                .hasAuthority("ADMIN")
+//                .anyRequest()
+//                .authenticated()
+//                .and()
+//                .formLogin().and()
+//                .httpBasic();
+//    }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
