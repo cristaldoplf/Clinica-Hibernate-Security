@@ -29,16 +29,12 @@ public class DentistService implements IDentistService {
 
     @Override
     public DentistDTO findById(@NotNull Integer id) {
+        DentistDTO response = null;
         Dentist dentist = dentistRepository.findById(id).get();
-//        System.out.println("##############################################################################");
-//        System.out.println("ID");
-//        System.out.println(dentist.getId());
-//        System.out.println("NOMBRE");
-//        System.out.println(dentist.getName());
-//        System.out.println("##############################################################################");
-        DentistDTO newDentistDTO = mapToDTO(dentist);
-
-        return newDentistDTO;
+        if (dentist != null){
+            response = mapToDTO(dentist);
+        }
+        return response;
     }
 
     @Override

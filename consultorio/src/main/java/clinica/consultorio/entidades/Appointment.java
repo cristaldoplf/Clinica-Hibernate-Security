@@ -33,10 +33,6 @@ public class Appointment {
     @JoinColumn(name = "patient_id", nullable = false)
     private Patient patient;
 
-
-
-
-
     @Override
     public String toString() {
         return "Appointment{" +
