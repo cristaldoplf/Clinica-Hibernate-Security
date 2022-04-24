@@ -26,9 +26,12 @@ public class PatientService implements IPatientService {
 
     @Override
     public PatientDTO findById(Integer id) {
-        Patient patient = patientRepository.getById(id);
-        PatientDTO newPatientDTO = mapToDTO(patient);
-        return newPatientDTO;
+        PatientDTO response = null;
+        Patient patient = patientRepository.findById(id).get();
+        if (patient != null){
+            response = mapToDTO(patient);
+        }
+        return response;
     }
 
     @Override
@@ -77,7 +80,7 @@ public class PatientService implements IPatientService {
 
     @Override
     public PatientDTO getPatientByName(String name) {
-        Patient patient = patientRepository.findPatientByName(name);
+        Patient patient = patientRepository.findPatientByEmail(name);
         return mapToDTO(patient);
     }
 

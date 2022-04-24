@@ -22,5 +22,5 @@ public class PatientDTO {
     private int dni;
     private LocalDate admissionDate;
     private Adress adress;
-    private Set<Appointment> appointment_list;
+//    private Set<Appointment> appointment_list;
 }
