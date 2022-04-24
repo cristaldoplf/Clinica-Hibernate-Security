@@ -1087,4 +1087,7 @@
   2022-04-24 13:45:03 INFO  PatientController:41 - Patient con el id 1 creado en la base de datos
   2022-04-24 13:45:14 INFO  AppointmentController:46 - Appointment con el id 1 creado en la base de datos
   2022-04-24 13:45:18 INFO  AppointmentController:76 - Se intenta buscar la lista completa de Appointments en la base de datos
+  2022-04-24 18:49:36 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:49:42 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-24 18:49:43 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   
