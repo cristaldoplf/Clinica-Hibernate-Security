@@ -1,5 +1,5 @@
 package clinica.consultorio.service.impl;
 
-public enum AppUsuarioRole {
+public enum   AppUsuarioRole {
     USER,ADMIN
 }

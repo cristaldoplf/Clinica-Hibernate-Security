@@ -12,6 +12,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
+@Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
@@ -19,7 +21,7 @@ import java.util.Set;
 public class Dentist {
     //eager fetch type aca y en turno
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String name;

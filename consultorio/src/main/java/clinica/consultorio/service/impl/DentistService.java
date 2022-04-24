@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -28,13 +29,13 @@ public class DentistService implements IDentistService {
 
     @Override
     public DentistDTO findById(@NotNull Integer id) {
-        Dentist dentist = dentistRepository.getById(id);
-        System.out.println("##############################################################################");
-        System.out.println("ID");
-        System.out.println(dentist.getId());
-        System.out.println("NOMBRE");
-        System.out.println(dentist.getName());
-        System.out.println("##############################################################################");
+        Dentist dentist = dentistRepository.findById(id).get();
+//        System.out.println("##############################################################################");
+//        System.out.println("ID");
+//        System.out.println(dentist.getId());
+//        System.out.println("NOMBRE");
+//        System.out.println(dentist.getName());
+//        System.out.println("##############################################################################");
         DentistDTO newDentistDTO = mapToDTO(dentist);
 
         return newDentistDTO;
@@ -56,8 +57,10 @@ public class DentistService implements IDentistService {
         //1- buscar la entidad
         //2- verificar que se encontro
         //3- eliminarla
-        Dentist dentist = dentistRepository.getById(id);
-        dentistRepository.delete(dentist);
+        Optional<Dentist> dentist = dentistRepository.findById(id);
+        if (dentist != null){
+            dentistRepository.deleteById(id);
+        }
 
     }
 
@@ -95,10 +98,17 @@ public class DentistService implements IDentistService {
 
     @Override
     public DentistDTO searchById(@NotNull Integer id) {
+        DentistDTO response = null;
         Dentist dentist = dentistRepository.searchById(id);
-        DentistDTO newDentistDTO = mapToDTO(dentist);
+        if (dentist != null){
+            response = mapToDTO(dentist);
+        }
+        return response;
+    }
 
-        return newDentistDTO;
+    @Override
+    public boolean isValid(Integer id){
+        return dentistRepository.existsById(id);
     }
 
 

@@ -1071,4 +1071,20 @@
   2022-04-21 14:32:07 INFO  AppointmentController:76 - Se intenta buscar la lista completa de Appointments en la base de datos
   2022-04-21 14:32:08 INFO  AppointmentController:76 - Se intenta buscar la lista completa de Appointments en la base de datos
   2022-04-21 16:54:57 INFO  DentistController:39 - Dentist con el id 2 creado en la base de datos
+  2022-04-21 23:32:19 INFO  DentistController:39 - Dentist con el id null creado en la base de datos
+  2022-04-21 23:32:22 INFO  DentistController:39 - Dentist con el id null creado en la base de datos
+  2022-04-21 23:32:26 INFO  DentistController:39 - Dentist con el id null creado en la base de datos
+  2022-04-21 23:32:27 INFO  DentistController:39 - Dentist con el id null creado en la base de datos
+  2022-04-21 23:32:28 INFO  DentistController:39 - Dentist con el id null creado en la base de datos
+  2022-04-21 23:33:12 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-21 23:34:56 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-23 11:34:31 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-23 11:34:37 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-23 11:34:39 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 13:44:26 ERROR GlobalExceptionHandler:23 - Required request body is missing: public org.springframework.http.ResponseEntity<clinica.consultorio.dto.DentistDTO> clinica.consultorio.controller.DentistController.create(clinica.consultorio.dto.DentistDTO)
+  2022-04-24 13:44:46 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-24 13:44:57 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 13:45:03 INFO  PatientController:41 - Patient con el id 1 creado en la base de datos
+  2022-04-24 13:45:14 INFO  AppointmentController:46 - Appointment con el id 1 creado en la base de datos
+  2022-04-24 13:45:18 INFO  AppointmentController:76 - Se intenta buscar la lista completa de Appointments en la base de datos
   
