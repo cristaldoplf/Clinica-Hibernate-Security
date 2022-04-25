@@ -554,7 +554,7 @@
 			"name": "Security",
 			"item": [
 				{
-					"name": "Login Security generated default",
+					"name": "Login Admin",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -570,6 +570,35 @@
 									"key": "password",
 									"value": "",
 									"type": "text"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/login?username=leonel@leonel.com&password=password2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "leonel@leonel.com"
+								},
+								{
+									"key": "password",
+									"value": "password2"
 								}
 							]
 						}

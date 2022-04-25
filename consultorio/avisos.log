@@ -1090,4 +1090,16 @@
   2022-04-24 18:49:36 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   2022-04-24 18:49:42 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
   2022-04-24 18:49:43 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:50:07 INFO  PatientController:41 - Patient con el id 1 creado en la base de datos
+  2022-04-24 18:50:10 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-24 18:50:19 INFO  AppointmentController:46 - Appointment con el id 1 creado en la base de datos
+  2022-04-24 18:50:22 INFO  AppointmentController:76 - Se intenta buscar la lista completa de Appointments en la base de datos
+  2022-04-24 18:51:40 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:54:20 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:54:34 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:54:41 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:55:51 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:58:19 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
+  2022-04-24 18:58:24 INFO  DentistController:39 - Dentist con el id 1 creado en la base de datos
+  2022-04-25 03:28:14 INFO  DentistController:70 - Se intenta buscar la lista completa de Dentists en la base de datos
   
